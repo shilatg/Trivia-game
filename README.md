@@ -1,37 +1,35 @@
-# Trivia-game
-Android Studio Project:
-This project includes an application for managing a question and answer game with the option to register, log in, and keep score. The game includes questions with answer options, and the user moves between different questions while maintaining the score and progress. In addition, there is support for sound management, displaying rules, and switching between screens (login/connect and play). The information is stored and managed in Firebase, Google's cloud database management system.
+Full Stack UI Project:
+The project is a digital store application that provides a dynamic shopping experience. The project performs the following operations:
 
-Technologies used in the project:
-Programming languages:
+Personalized User Experience:
 
-Java – the main programming language for developing the application.
-Android development:
+The user can choose between a light and dark display theme (Light/Dark Mode).
+The project saves the user's preferences regarding the display theme using the Context API.
+Shopping Cart Management Interface:
 
-Android SDK – the Android development environment, including the use of UI elements such as buttons, images, and dialogs.
-Android Studio – the main development tool for developing Android applications.
-Database:
+Users can add, download, or remove products from the cart.
+The system records the quantity and final price of each item in the cart and provides a price summary.
+Interfacing with MobX to manage the states of items in the cart.
+Buttons for interacting with the items in the cart, including adding/removing items.
+Payment System:
 
-Firebase Realtime Database – a cloud database management system used to maintain user information, including saving scores, personal information, and user customization.
-Firebase Authentication – Manage user logins via email and password, including the option for new registration and existing logins.
-Push and media notifications:
+Users can enter credit card information in a simple way to proceed to payment.
+Includes a payment interface that includes fields for entering credit card information and expiration date.
+Interactive Product Gallery:
 
-MediaPlayer – for playing music and sound effects.
-Additional tools:
+Display products using a pop-up with the option to switch between product images.
+The user can navigate between the images using arrows.
+Intuitive navigation:
 
-Gson – for creating objects from JSON and handling data from a JSON file.
-Dialogs – displaying pop-up windows (Dialogs) with various contents such as rules, displaying scores and ending the game.
-Development of an Android application that includes a question and answer game with the ability to interface with Firebase for user management (registration, login and keeping score). The project includes dynamic content that is loaded from a JSON file, sound mode management (play/pause), and displaying rules. The application synchronizes the information in Firebase and the users and provides an interactive gaming experience.
+A clear and accessible navigation system between different pages of the site, including the home page, store page, shopping cart, and more.
+Users can easily navigate between the different pages of the site using buttons in the main menu.
+User management:
 
-Technological capabilities:
-
-Development of Android applications in Java using the Android SDK and Android Studio.
-Working with Firebase for real-time data management, login and settings User.
-Integration of media such as music and sounds using MediaPlayer.
-Handling data in JSON file using Gson library.
-Creating dynamic dialogs that appear when finishing a game or pressing buttons.
-UX/UI optimization to ensure a smooth user experience.
-Results:
-
-Game runs continuously across multiple screens (login, play, finish).
-Maintaining user progress (high score) and the ability to play music and adjust sound.
+The system identifies the user and allows him to go to the login page conveniently.
+The user's name can be displayed in a personalized greeting on the site pages.
+Technologies I used:
+React – for building the interface and the behavior of the pages.
+React Router – for managing the navigation between the pages.
+MobX – for managing the states and state of the shopping cart.
+Context API – for managing user preferences (for example: the display mode).
+CSS – for designing and visual enjoyment of the interface.
