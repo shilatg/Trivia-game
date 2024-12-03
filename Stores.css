@@ -1,0 +1,153 @@
+@keyframes colorChange {
+  0% {
+      color: black;
+  }
+  20% {
+      color: red;
+  }
+  40% {
+      color: blue;
+  }
+  60% {
+      color: white;
+  }
+  80% {
+    color: green;
+}
+  100% {
+      color: yellow;
+  }
+}
+.menu-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3rem;
+    animation: colorChange 6s infinite;
+  }
+  
+  .menu-container h2 {
+    font-size: 28px;
+    font-weight: 700;
+    animation: colorChange 6s infinite;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .menu-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .menu-container li:last-child {
+    border-bottom: none;
+  }
+  
+  .menu-container li:hover {
+    background-color: #e9e9e9;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-container .resButtons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .menu-container button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-container button:hover {
+    background-color: #ddd;
+  }
+  
+  .menu-container .resButtons button {
+    background-color: #000000;
+    color: white;
+  }
+  
+  .menu-container .resButtons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .menu-container .go-to-cart-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-container .go-to-cart-button:hover {
+    background-color: #218838;
+  }
+  
+  .McDonalds-menu-container {
+    background-image: url('https://order.mcdonalds.co.il/_next/image?url=https%3A%2F%2Fnewcdnmedia.mcdonalds.co.il%2F_media%2Fmedia%2F1%2F16440.svg%3Ft%3D1700561131&w=3840&q=75');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .PizzaHut-menu-container {
+    background-image: url('https://www.pizzalab.co.il/wp-content/uploads/2023/11/crispy-pizza-cover.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .Vivino-menu-container {
+    background-image: url('https://media.getmood.io/warehouse/dynamic/309128.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .Golda-menu-container {
+    background-image: url('https://www.hilacarmeli.com/wp-content/uploads/2020/12/Untitled-2.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .Japanika-menu-container {
+    background-image: url('https://bestrest.rest/wp-content/uploads/2019/04/2GAL_2220-1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+    
+  }
+  .CatenaZapata-menu-container {
+    background-image: url('https://candcgroupplc.com/wp-content/uploads/2022/05/Three-Revolutions-PPT-eng.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+  }

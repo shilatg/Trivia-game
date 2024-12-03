@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: var(--navbar-bg);
+  padding: 10px 0;
+  background: rgb(200, 192, 192);
+}
+
+.navbar.light {
+  --navbar-bg: #f0f0f0;
+}
+
+.navbar.dark {
+  --navbar-bg: #333;
+}
+
+.nav-link {
+  color: var(--link-color);
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  color: #f0a;
+  text-decoration: underline;
+}
+
+.theme-toggle {
+  margin-left: 20px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #444;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.theme-toggle:hover {
+  background-color: #555;
+}
